@@ -1,0 +1,12 @@
+WARNING: Running pip install with root privileges is generally not a good idea. Try `pip3 install --user` instead.
+Collecting geopandas
+  Downloading https://files.pythonhosted.org/packages/d7/bf/e9cefb69d39155d122b6ddca53893b61535fa6ffdad70bf5ef708977f53f/geopandas-0.9.0-py2.py3-none-any.whl (994kB)
+Collecting fiona>=1.8 (from geopandas)
+  Downloading https://files.pythonhosted.org/packages/b9/d7/48025179fbbb2e1bab698131246878df36fa9aa5bee0ba1c062cd8f2ef44/Fiona-1.8.22.tar.gz (1.4MB)
+    Complete output from command python setup.py egg_info:
+    Failed to get options via gdal-config: [Errno 2] No such file or directory: 'gdal-config': 'gdal-config'
+    A GDAL API version must be specified. Provide a path to gdal-config using a GDAL_CONFIG environment variable or use a GDAL_VERSION environment variable. 
+
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-x5zkj0k5/fiona/
+The command '/bin/sh -c pip3 install geopandas --user' returned a non-zero code: 1
