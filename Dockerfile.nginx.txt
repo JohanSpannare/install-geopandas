@@ -1,0 +1,10 @@
+Step 7/7 : RUN pipx list
+ ---> Running in 6bf924afc5ec
+venvs are in /root/.local/pipx/venvs
+apps are exposed on your $PATH at /root/.local/bin
+   package geopandas 0.13.2, installed using Python 3.11.2
+    - f2py
+    - f2py3
+    - f2py3.11
+    - fio
+    - pyproj

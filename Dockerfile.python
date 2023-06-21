@@ -1,0 +1,4 @@
+FROM python
+RUN apt update
+RUN pip install geopandas
+RUN pip list
